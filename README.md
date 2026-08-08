@@ -11,37 +11,36 @@ Environment hosted on VMware virtual machines, consisting of the following core 
 * Attacker Node (Kali Linux): A dedicated instance deployed to simulate cyber threats and malicious activities.
 * pfSense Firewall: Secures network boundaries and forwards firewall logs to Wazuh for anomaly detection.
 * Suricata IDS/IPS: Inspects live network traffic and feeds real-time intrusion alerts into the Wazuh SIEM.
-[<img width="1223" height="864" alt="019fdc8a-fc78-722a-9b23-d2915f2fa28c" src="https://github.com/user-attachments/assets/b0190f73-5c73-4c36-ae05-5f8982cca9a4" />](https://github.com/iizhitsa/wazuh-soc-lab/blob/main/Lab_architecture.png)
-
+[<img width="1223" height="864" alt="Lab_architecture.png" src="https://github.com/iizhitsa/wazuh-soc-lab/blob/main/Lab_architecture.png" />]
 
 
 
 _Figure 1: SOC Lab Architecture._
 
 # 🛠️ Wazuh Setup
-[Wazuh_configuration-PO.pdf](https://github.com/user-attachments/files/30831964/Wazuh_configuration-PO.pdf)
+[Wazuh_configuration.pdf](https://github.com/iizhitsa/wazuh-soc-lab/blob/main/docs/Wazuh_configuration-PO.pdf)
 
 🎯 **Key Milestones**:
 * Deploy Wazuh: Spin up the SIEM platform in a virtualized environment via the official OVA package.
 * Configure & Verify: Set up core services, troubleshoot potential issues, and access the web dashboard.
 * Centralize Visibility: Install and register endpoint agents to enable continuous log collection.
+
 # 🔌 Implementaion & Configuration:
-[Suricata_integration-PO.pdf](https://github.com/user-attachments/files/30831799/Suricata_integration-PO.pdf)
+[Suricata_integration.pdf](https://github.com/iizhitsa/wazuh-soc-lab/blob/main/docs/Wazuh_configuration-PO.pdf)
 
 🎯 **Key Milestones**:
 * Threat Strategy Definition: Implement IDS for passive threat detection and IPS for active attack mitigation.
 * Suricata Deployment: Install and configure the Suricata engine on Windows utilizing Npcap and custom detection rules.
 * SIEM Integration: Unify security telemetry by shipping Suricata network logs to Wazuh for centralized monitoring.
 
-[Pfsense_integration-OP.pdf](https://github.com/user-attachments/files/30834524/Pfsense_integration-OP.pdf)
-
+[Pfsense_integration.pdf](https://github.com/iizhitsa/wazuh-soc-lab/blob/main/docs/Pfsense_integration-OP.pdf)
 
 🎯 **Key Milestones**:
 * Perimeter Defense Deployment: Set up pfSense as a virtual firewall within VMware to manage and monitor network traffic.
 * Log Forwarding Integration: Configure remote syslog capabilities to stream pfSense security events into Wazuh.
 * Custom Detection Tuning: Develop tailored Wazuh decoders and rules to identify allowed connections, blocked traffic, and authentication attempts.
 
-[VirusTotal_integration-OP.pdf](https://github.com/user-attachments/files/30834689/VirusTotal_integration-OP.pdf)
+[VirusTotal_integration.pdf](https://github.com/iizhitsa/wazuh-soc-lab/blob/main/docs/VirusTotal_integration-OP.pdf)
 
 🎯 **Key Milestones**:
 * API Integration Setup: Secure a VirusTotal API key and configure the integration module within the Wazuh Manager.
@@ -57,7 +56,7 @@ _Figure 1: SOC Lab Architecture._
 * Real-Time Auditing: Enable continuous, recursive monitoring with change-reporting capabilities for targets and subfolders.
 * Alert Validation: Create, modify, and delete files to verify that the SIEM successfully triggers alerts for every file system event.
 
-[Logs&Sysmon_ingestion-OP.pdf](https://github.com/user-attachments/files/30853846/Logs.Sysmon_ingestion-OP.pdf)
+[Logs&Sysmon_ingestion.pdf](https://github.com/iizhitsa/wazuh-soc-lab/blob/main/docs/Logs%26Sysmon_ingestion-OP.pdf)
 
 
 🎯 **Key Milestones**:
@@ -69,8 +68,7 @@ _Figure 1: SOC Lab Architecture._
 
 Brute Force Attack Simulation & Wazuh Investigation 
 
-[SSH_Brute_Force-OP.pdf](https://github.com/user-attachments/files/30853858/SSH_Brute_Force-OP.pdf)
-
+[SSH_Brute_Force.pdf](https://github.com/iizhitsa/wazuh-soc-lab/blob/main/docs/SSH_Brute_Force-OP.pdf)
 
 🎯 **Key Milestones**:
 * Adversary Emulation: Simulate an SSH brute force attack using Hydra within a controlled environment to generate high-frequency failed login attempts.
@@ -87,9 +85,9 @@ This SOC home lab project successfully demonstrates the power of combining open-
 # 📄 Full Documentation
 
 Get the complete SOC Home Lab setup guide here:
-[Soc_Home_Lab-OP.pdf](https://github.com/user-attachments/files/30853893/Soc_Home_Lab-OP.pdf)
+
+[Soc_Home_Lab.pdf](https://github.com/iizhitsa/wazuh-soc-lab/blob/main/docs/Soc_Home_Lab-OP.pdf)
 
 
 # 📌 Connect with Me:
 [Telegram](t.me/f0rbrt)
-
