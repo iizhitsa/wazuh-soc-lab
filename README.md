@@ -11,7 +11,7 @@ Environment hosted on VMware virtual machines, consisting of the following core 
 * Attacker Node (Kali Linux): A dedicated instance deployed to simulate cyber threats and malicious activities.
 * pfSense Firewall: Secures network boundaries and forwards firewall logs to Wazuh for anomaly detection.
 * Suricata IDS/IPS: Inspects live network traffic and feeds real-time intrusion alerts into the Wazuh SIEM.
-<img width="1223" height="864" alt="019fdc8a-fc78-722a-9b23-d2915f2fa28c" src="https://github.com/user-attachments/assets/b0190f73-5c73-4c36-ae05-5f8982cca9a4" />
+[<img width="1223" height="864" alt="019fdc8a-fc78-722a-9b23-d2915f2fa28c" src="https://github.com/user-attachments/assets/b0190f73-5c73-4c36-ae05-5f8982cca9a4" />](https://github.com/iizhitsa/wazuh-soc-lab/blob/main/Lab_architecture.png)
 
 
 
