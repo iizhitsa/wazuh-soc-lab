@@ -48,7 +48,8 @@ _Figure 1: SOC Lab Architecture._
 * Real-Time Directory Monitoring: Enable Wazuh FIM (File Integrity Monitoring) agents to track directories and automate VirusTotal lookups.
 * Alert Enrichment: Leverage VirusTotal reputation data to enrich SIEM alerts, accelerating incident triage and threat analysis.
 
-[File_integrity_monitoring-OP.pdf]
+[File_integrity_monitoring-OP.pdf](https://github.com/user-attachments/files/30853842/File_integrity_monitoring-OP.pdf)
+
 
 
 🎯 **Key Milestones**:
@@ -56,7 +57,8 @@ _Figure 1: SOC Lab Architecture._
 * Real-Time Auditing: Enable continuous, recursive monitoring with change-reporting capabilities for targets and subfolders.
 * Alert Validation: Create, modify, and delete files to verify that the SIEM successfully triggers alerts for every file system event.
 
-[Logs & Sysmon ingestion 📄 PDF Guide]
+[Logs&Sysmon_ingestion-OP.pdf](https://github.com/user-attachments/files/30853846/Logs.Sysmon_ingestion-OP.pdf)
+
 
 🎯 **Key Milestones**:
 * Telemetry Baseline Assessment: Analyze Windows Event Logs to identify key categories and critical Event IDs essential for system and security visibility.
@@ -67,7 +69,8 @@ _Figure 1: SOC Lab Architecture._
 
 Brute Force Attack Simulation & Wazuh Investigation 
 
-[📄 PDF Guide]
+[SSH_Brute_Force-OP.pdf](https://github.com/user-attachments/files/30853858/SSH_Brute_Force-OP.pdf)
+
 
 🎯 **Key Milestones**:
 * Adversary Emulation: Simulate an SSH brute force attack using Hydra within a controlled environment to generate high-frequency failed login attempts.
@@ -84,8 +87,10 @@ This SOC home lab project successfully demonstrates the power of combining open-
 # 📄 Full Documentation
 
 Get the complete SOC Home Lab setup guide here:
-[📥 SOC_Home_Lab_Guide.pdf]
+[Soc_Home_Lab-OP.pdf](https://github.com/user-attachments/files/30853893/Soc_Home_Lab-OP.pdf)
+
 
 # 📌 Connect with Me:
+[Telegram](t.me/f0rbrt)
 
 
